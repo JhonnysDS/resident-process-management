@@ -6,18 +6,18 @@
             </div>
             <form action="" class="form">
                 <div class="div-input">
-                    <input pInputText pKeyFilter="int" placeholder="Correo"  />
+                    <input type="email" pInputText pKeyFilter="int" placeholder="Correo"  />
                 </div>
                 <div class="div-input">
-                    <input pInputText pKeyFilter="int" placeholder="Contraseña"  />
+                    <input type="password" pInputText pKeyFilter="int" placeholder="Contraseña"  />
                 </div>
                 <div class="div-button">
                     <p-button [style]="{'width': '100%'}" label="Iniciar Sesión" [rounded]="true" severity="success"></p-button>
                 </div>
             </form>
             <div class="div-text">
-                <p>¿Aún no tienes una cuenta? <span>Crear una</span></p>
-                <p>Olvidé mi Contraseña.</p>
+                <p>¿Aún no tienes una cuenta? <span routerLink="/auth/register">Crear una</span></p>
+                <span routerLink="/auth/forgot-password">Olvidé mi Contraseña.</span>
             </div>
         </div>
         <div class="div-container-image">

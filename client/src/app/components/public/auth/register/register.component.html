@@ -1,1 +1,35 @@
-<p>register works!</p>
+<Section class="section-container-overall">
+    <div class="div-container-overall">
+        <div class="div-container-form">
+            <div class="div-title">
+                <h1>Registrarse</h1>
+            </div>
+            <form action="" class="form">
+                <div class="div-input">
+                    <input type="text" pInputText pKeyFilter="int" placeholder="Nombres"  />
+                </div>
+                <div class="div-input">
+                    <input type="text" pInputText pKeyFilter="int" placeholder="Apellidos"  />
+                </div>
+                <div class="div-input">
+                    <input type="number" pInputText pKeyFilter="int" placeholder="Celular"  />
+                </div>
+                <div class="div-input">
+                    <input type="email" pInputText pKeyFilter="int" placeholder="Correo"  />
+                </div>
+                <div class="div-input">
+                    <input type="password" pInputText pKeyFilter="int" placeholder="Contraseña"  />
+                </div>
+                <div class="div-button">
+                    <p-button [style]="{'width': '100%'}" label="Registrarse" [rounded]="true" severity="success"></p-button>
+                </div>
+            </form>
+            <div class="div-text">
+                <p>¿Ya tienes una cuenta? <span routerLink="/auth/login" >Ingresa</span></p>
+            </div>
+        </div>
+        <div class="div-container-image">
+            <img src="../../../../../assets/images/icons/apartment.png" alt="">
+        </div>
+    </div>
+</Section>
