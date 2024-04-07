@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'CourierPrime-Regular';
+}
+
+@font-face {
+    font-family: 'CourierPrime-Bold';
+    src: url("../src/assets/fonts/courier-prime/CourierPrime-Bold.ttf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: 'CourierPrime-BoldItalic';
+    src: url("../src/assets/fonts/courier-prime/CourierPrime-BoldItalic.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: 'CourierPrime-Italic';
+    src: url("../src/assets/fonts/courier-prime/CourierPrime-Italic.ttf") format("opentype");
+  }
+
+  @font-face {
+    font-family: 'CourierPrime-Regular';
+    src: url("../src/assets/fonts/courier-prime/CourierPrime-Regular.ttf") format("opentype");
+  }

@@ -1,1 +1,27 @@
-<p>login works!</p>
+<Section class="section-container-overall">
+    <div class="div-container-overall">
+        <div class="div-container-form">
+            <div class="div-title">
+                <h1>Iniciar Sesión</h1>
+            </div>
+            <form action="" class="form">
+                <div class="div-input">
+                    <input pInputText pKeyFilter="int" placeholder="Correo"  />
+                </div>
+                <div class="div-input">
+                    <input pInputText pKeyFilter="int" placeholder="Contraseña"  />
+                </div>
+                <div class="div-button">
+                    <p-button [style]="{'width': '100%'}" label="Iniciar Sesión" [rounded]="true" severity="success"></p-button>
+                </div>
+            </form>
+            <div class="div-text">
+                <p>¿Aún no tienes una cuenta? <span>Crear una</span></p>
+                <p>Olvidé mi Contraseña.</p>
+            </div>
+        </div>
+        <div class="div-container-image">
+            <img src="../../../../../assets/images/icons/apartment.png" alt="">
+        </div>
+    </div>
+</Section>
